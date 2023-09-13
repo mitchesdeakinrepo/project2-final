@@ -7,7 +7,7 @@
 		</div>
 	</div>
 
-	<div id="app">
+	<div style="width: 100%" class="todocontent">
 		<template v-if="showtodoForm">
 			<ToDoForm :addTodo="addTask" @cancelevent="cancelForm" />
 		</template>

@@ -51,6 +51,8 @@ export default {
 <!-- Add the following styles for your ToDoList.vue elements -->
 <style>
 .todos_list {
+	width: 100%;
+	justify-content: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -58,6 +60,10 @@ export default {
 }
 
 .listcontainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	background-color: #1a1c22;
 	width: 90%;
 	border-radius: 30px;

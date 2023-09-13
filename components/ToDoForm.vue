@@ -70,3 +70,17 @@ export default {
 	},
 };
 </script>
+
+<style>
+.formcontainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #1a1c22;
+	width: 90%;
+	border-radius: 30px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+</style>
