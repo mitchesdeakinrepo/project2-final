@@ -1,0 +1,35 @@
+{
+  "hash": "8e1c0f9a",
+  "browserHash": "c1d5467d",
+  "optimized": {
+    "vue": {
+      "src": "../../vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "28d7d64d",
+      "needsInterop": false
+    },
+    "dayjs": {
+      "src": "../../dayjs/dayjs.min.js",
+      "file": "dayjs.js",
+      "fileHash": "a53824ea",
+      "needsInterop": true
+    },
+    "dayjs/plugin/weekday": {
+      "src": "../../dayjs/plugin/weekday.js",
+      "file": "dayjs_plugin_weekday.js",
+      "fileHash": "472eaa61",
+      "needsInterop": true
+    },
+    "dayjs/plugin/weekOfYear": {
+      "src": "../../dayjs/plugin/weekOfYear.js",
+      "file": "dayjs_plugin_weekOfYear.js",
+      "fileHash": "fd8f9234",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-76J2PTFD": {
+      "file": "chunk-76J2PTFD.js"
+    }
+  }
+}
